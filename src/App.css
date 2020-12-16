@@ -6,13 +6,57 @@
 }
 
 .card {
-  display: flex;  
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cadetblue;    
+  background-color: cadetblue;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+.Menu {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  background-color: cadetblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.Quiz {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  background-color: cadetblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.End {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  background-color: cadetblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.End h1 {
+  color: white;
+  text-align: center;
+}
+
+.Menu input, button {
+  width: 200px;
+  height: 50px;
+  margin: 4px;
 }
