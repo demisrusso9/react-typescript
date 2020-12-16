@@ -8,7 +8,7 @@ export const Questions = [
       answer: 'optionD'
    },
    {
-      prompt: 'What colors have the Brazil flag?',
+      prompt: 'What colors are the brazilian flag?',
       optionA: 'black, red amd yellow',
       optionB: 'green, yellow and blue',
       optionC: 'dark green, yellow, blue and white',

@@ -27,7 +27,6 @@ function QuizQuestions() {
 
          <h3>{Questions[currentQuestion].prompt}</h3>
 
-
          <button onClick={_ => chooseOption('optionA')}>{Questions[currentQuestion].optionA}</button>
          <button onClick={_ => chooseOption('optionB')}>{Questions[currentQuestion].optionB}</button>
          <button onClick={_ => chooseOption('optionC')}>{Questions[currentQuestion].optionC}</button>
